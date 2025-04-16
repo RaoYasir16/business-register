@@ -7,7 +7,7 @@ const validateUser = async (req, res, next) => {
     // Check for Bearer token
     if (!authorization || !authorization.startsWith("Bearer ")) {
       return res.status(401).json({
-        message: "User not authorized"
+        message: "User not authorized Test"
       });
     }
 
