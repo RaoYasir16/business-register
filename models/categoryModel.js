@@ -5,7 +5,7 @@ const categorySchema = new mongoose.Schema({
         type: mongoose.Schema.ObjectId,
         ref:"business"
     },
-    name:{
+    category_name:{
         type: String
     }
 },{
