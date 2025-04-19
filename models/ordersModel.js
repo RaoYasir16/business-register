@@ -8,6 +8,10 @@ const ordersSchema = new mongoose.Schema({
     product_id:{
         type: mongoose.Schema.ObjectId,
         ref:"product"
+    },
+    user_id:{
+        type:mongoose.Schema.ObjectId,
+        ref:"user"
     }
 },{
     timestamps: true
